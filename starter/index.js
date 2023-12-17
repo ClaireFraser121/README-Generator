@@ -21,6 +21,11 @@ const questions = [
         message: 'What are the installation instructions for your project?',
     },
     {
+        type: 'input',
+        name: 'usage',
+        message: 'Provide information on how to use your project:',
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your application:',
@@ -30,6 +35,16 @@ const questions = [
         type: 'input',
         name: 'contributing',
         message: 'How can others contribute to your project?',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Provide information on how to run tests (if applicable):'
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'What is your GitHub username?'
     },
     {
         type: 'input',
