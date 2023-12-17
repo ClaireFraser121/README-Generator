@@ -93,7 +93,31 @@ Spend less time on README formatting and more time on building remarkable projec
   This project is licensed under the MIT License.
 
 ## Contributing
-  Thank you for considering contributing to this project! Contributions are welcome and encouraged. YOu can contribute in various ways such as bug reports and feature requests
+
+Thank you for considering contributing to this project! Contributions are welcome and encouraged. You can contribute in various ways:
+
+### Bug Reports and Feature Requests
+
+If you come across any issues or have ideas for new features, please [open an issue](https://github.com/ClaireFraser121/README-Generator/issues) on GitHub. Be sure to provide detailed information to help us understand and address the concern.
+
+### Pull Requests
+
+If you'd like to contribute directly, consider submitting a pull request. Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request, providing a clear description of your changes.
+
+Before submitting a pull request, ensure that your changes pass any existing tests and adhere to the project's coding standards.
+
+### Code of Conduct
+
+Please note that this project follows a [Code of Conduct](./utils/CODE_OF_CONDUCT.md). By participating, you agree to uphold this code.
+
+Thank you for contributing!
+
 
 ## Tests
 
