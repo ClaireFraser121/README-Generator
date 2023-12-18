@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const fileName = 'README.md';
 
 // array of questions for user
 const questions = [
@@ -49,7 +50,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address? (For users to reach out with additional questions)',
+        message: 'What is your email address?',
     },
     {
         type: 'input',
@@ -71,17 +72,17 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFileSync(fileName, data);
-    console.log( 'File "${fileName}" written successfully!');
+    fs.writeFileSync(fileName, data, 'utf8');  // Added 'utf8' encoding
+    console.log(`File "${fileName}" written successfully!`);
 }
+
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const markdownContent = generateMarkdown(answers);
-        writeToFile('README.md', markdownContent);
+        writeToFile(fileName, markdownContent);  // Use the fileName variable
     });
-
 }
 
 // function call to initialize program
