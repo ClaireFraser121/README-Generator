@@ -24,6 +24,11 @@ function generateMarkdown(data) {
   ## License
   This project is licensed under the ${data.license} License.
 
+  
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE.md](LICENSE.md) file for details.
+
   ## Contributing
   ${data.contributing}
 
