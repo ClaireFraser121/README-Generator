@@ -12,6 +12,8 @@ function generateMarkdown(data) {
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+  - [Video Demo](#video-demo)
+  - [Screenshots](#screenshots)
 
   ## Installation
   ${data.installation}
@@ -34,6 +36,12 @@ function generateMarkdown(data) {
   
   You can also contact me via email: ${data.email}
   
+  ## Video Demo
+  [Link to Video Demo](${data.videoLink})
+
+  ## Screenshots
+  ![Screenshot 1](${data.screenshot1})
+  ![Screenshot 2](${data.screenshot2})
 `;
 }
 

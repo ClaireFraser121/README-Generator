@@ -51,6 +51,21 @@ const questions = [
         name: 'email',
         message: 'What is your email address? (For users to reach out with additional questions)',
     },
+    {
+        type: 'input',
+        name: 'videoLink',
+        message: 'Enter the link to your video demo:',
+    },
+    {
+        type: 'input',
+        name: 'screenshot1',
+        message: 'Enter the URL of your first screenshot:',
+    },
+    {
+        type: 'input',
+        name: 'screenshot2',
+        message: 'Enter the URL of your second screenshot (optional):',
+    },
 
 ];
 
