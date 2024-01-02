@@ -117,7 +117,7 @@ Before submitting a pull request, ensure that your changes pass any existing tes
 
 ### Code of Conduct
 
-Please note that this project follows a [Code of Conduct](./utils/CODE_OF_CONDUCT.md). By participating, you agree to uphold this code.
+Please note that this project follows a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you agree to uphold this code.
 
 Thank you for contributing!
 
@@ -151,6 +151,6 @@ To run tests for this project, follow these steps:
   [Link to Video Demo](https://drive.google.com/file/d/1Vth9LJDEARqJWffb_jYAZJHnYbZHRqPN/view) 
 
   ## Screenshots
-  ![Screenshot 1](./utils/Screenshot1.png)
-  ![Screenshot 2](./utils/Screenshot2.png)
+  ![Screenshot 1](./assets/images/Screenshot1.png)
+  ![Screenshot 2](./assets/images/Screenshot2.png)
 
