@@ -92,6 +92,9 @@ Spend less time on README formatting and more time on building remarkable projec
 ## License
   This project is licensed under the MIT License.
 
+  
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Contributing
 
 Thank you for considering contributing to this project! Contributions are welcome and encouraged. You can contribute in various ways:
@@ -143,4 +146,11 @@ To run tests for this project, follow these steps:
   [ClaireFraser121](https://github.com/ClaireFraser121)
   
   You can also contact me via email: clairefraser121@gmail.com
-  
+
+## Video Demo
+  [Link to Video Demo](https://drive.google.com/file/d/1Vth9LJDEARqJWffb_jYAZJHnYbZHRqPN/view) 
+
+  ## Screenshots
+  ![Screenshot 1](./utils/Screenshot1.png)
+  ![Screenshot 2](./utils/Screenshot2.png)
+
