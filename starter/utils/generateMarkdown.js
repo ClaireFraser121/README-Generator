@@ -1,6 +1,19 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  // Map user-friendly license names to corresponding badge URLs
+  const licenseBadges = {
+      'MIT': 'https://img.shields.io/badge/License-MIT-blue.svg',
+      'GNU GPLv3': 'https://img.shields.io/badge/License-GNU%20GPLv3-blue.svg',
+      'Apache 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
+      'ISC': 'https://img.shields.io/badge/License-ISC-blue.svg',
+      'None': 'https://img.shields.io/badge/License-None-blue.svg',
+  };
+
+  // Get the badge URL based on the selected license
+  const badgeURL = licenseBadges[data.license];
+
   return `# ${data.projectTitle}
+
 
   ## Description
   ${data.projectDescription}
@@ -23,12 +36,11 @@ function generateMarkdown(data) {
 
   ## License
   This project is licensed under the ${data.license} License.
-
   
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE.md](LICENSE.md) file for details.
-
+  [![License](${badgeURL})](https://opensource.org/licenses/${encodeURIComponent(data.license)})
+  
+  For more details, please see the [LICENSE.md](LICENSE.md) file.
+  
   ## Contributing
   ${data.contributing}
 
