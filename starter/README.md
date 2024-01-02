@@ -150,7 +150,8 @@ To run tests for this project, follow these steps:
 ## Video Demo
   [Link to Video Demo](https://drive.google.com/file/d/1i-BsN00d-yuj92efpnEFE8b-xw5qQ8VR/view)
 
-  ## Screenshots
-  ![Screenshot 1](./assets/images/Screenshot1.png)
-  ![Screenshot 2](./assets/images/Screenshot2.png)
+   ## Screenshots
+  ![Screenshot 1](./starter/assets/images/Screenshot1.png)
+  ![Screenshot 2](./starter/assets/images/Screenshot2.png)
+
 
